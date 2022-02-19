@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class EmpWageCalcUC3 {
 public static void main(String[] args) {
-final int emp_rate_per_hour=20;
+	final int emp_rate_per_hour=20;
 	
 	final int is_part_time=1;
 	final int is_full_time=2;
@@ -23,6 +23,10 @@ final int emp_rate_per_hour=20;
 	{
 		System.out.println("Employee is Part_time");
 		empHours=4;
+	}
+	else
+	{
+		empHours=0;
 	}
 		salary=empHours * emp_rate_per_hour;
 		
